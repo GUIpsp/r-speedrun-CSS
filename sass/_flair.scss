@@ -50,3 +50,46 @@
     width: 16px; height: 16px;
     background:url(%%github%%)no-repeat;
 }
+
+//Flair Templates
+.flair-templates {
+    background: url(%%flair%%);
+    height: 16px;
+    display: inline-block;
+}
+.flair-megusta {
+    @extend .flair-templates;
+    background-position: 0 0;
+}
+.flair-troll {
+    @extend .flair-templates;
+    background-position: -24px 0;
+}
+.flair-rage {
+    @extend .flair-templates;
+    background-position: -52px 0;
+}
+.flair-happy {
+    @extend .flair-templates;
+    background-position: -74px 0;
+}
+.flair-herp {
+    @extend .flair-templates;
+    background-position: -98px 0;
+}
+.flair-lol {
+    @extend .flair-templates;
+    background-position: -121px 0;
+}
+.flair-okay {
+    @extend .flair-templates;
+    background-position:-142px 0;
+}
+.flair-milk {
+    @extend .flair-templates;
+    background-position: -159px 0;
+}
+.flair-foreveralone {
+    @extend .flair-templates;
+    background-position: -179px 0;
+}
