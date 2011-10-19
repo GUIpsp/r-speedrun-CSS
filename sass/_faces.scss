@@ -39,769 +39,513 @@ a[href="/fy1"]:after {
 }
 a[href="/milk"]:after {
     @extend .faces;
-    background-position: -210px -60px;
-    height: 25px;
-    width: 21px;
+    @include sizer(-210px, -60px, 21px, 25px);
 }
 a[href="/pickletime"]:after {
     @extend .faces;
-    background-position: -240px -87px;
-    height: 21px;
-    width: 56px;
+    @include sizer(-240px, -87px, 56px, 21px);
 }
 a[href="/notsure"]:after {
     @extend .faces;
-    background-position: -433px -315px;
-    height: 34px;
-    width: 22px;
+    @include sizer(-433px, -315px, 22px, 34px);
 }
 a[href="/fuckthatshit"]:after {
     @extend .faces;
-    background-position: 0 -180px;
-    height: 88px;
-    width: 61px;
+    @include sizer(0, -180px, 61px, 88px);
 }
 a[href="/teethrage"]:after {
     @extend .faces;
-    background-position: -331px -61px;
-    height: 59px;
-    width: 59px;
+    @include sizer(-331px, -61px, 59px, 59px);
 }
 a[href="/foreveralone"]:after {
     @extend .faces;
-    background-position: -330px -120px;
-    height: 95px;
-    width: 88px;
+    @include sizer(-330px, -120px, 88px, 95px);
 }
 a[href="/bzz"]:after {
     @extend .faces;
-    background-position: -125px -150px;
-    height: 28px;
-    width: 97px;
+    @include sizer(-125px, -150px, 97px, 28px);
 }
 a[href="/creepy"]:after {
     @extend .faces;
-    background-position: -300px -60px;
-    height: 31px;
-    width: 30px;
+    @include sizer(-300px, -60px, 30px, 31px);
 }
 a[href="/itstime"]:after {
     @extend .faces;
-    background-position: -270px -300px;
-    height: 41px;
-    width: 41px;
+    @include sizer(-270px, -300px, 41px, 41px);
 }
 a[href="/gtroll"]:after {
     @extend .faces;
-    background-position: -149px -300px;
-    height: 31px;
-    width: 35px;
+    @include sizer(-149px, -300px, 35px, 31px);
 }
 a[href="/fap"]:after {
     @extend .faces;
-    background-position: -331px -330px;
-    height: 45px;
-    width: 39px;
+    @include sizer(-331px, -330px, 39px, 45px);
 }
 a[href="/pfttxt"]:after {
     @extend .faces;
-    background-position: -120px -571px;
-    height: 24px;
-    width: 12px;
+    @include sizer(-120px, -571px, 12px, 24px);
 }
 a[href="/biggusta"]:after {
     @extend .faces;
-    background-position: -370px -380px;
-    height: 67px;
-    width: 65px;
+    @include sizer(-370px, -380px, 65px, 67px);
 }
 a[href="/hahahahaha"]:after {
     @extend .faces;
-    background-position: -60px -541px;
-    height: 34px;
-    width: 35px;
+    @include sizer(-60px, -541px, 35px, 34px);
 }
 a[href="/2229"]:after {
     @extend .faces;
-    background-position: -108px -403px;
-    height: 67px;
-    width: 47px;
+    @include sizer(-108px, -403px, 47px, 67px);
 }
 a[href="/smokeweedeveryday"]:after {
     @extend .faces;
-    background-position: -180px -420px;
-    height: 54px;
-    width: 45px;
+    @include sizer(-180px, -420px, 45px, 54px);
 }
 a[href="/jackieeeee!"]:after {
     @extend .faces;
-    background-position: -210px -361px;
-    height: 54px;
-    width: 95px;
+    @include sizer(-210px, -361px, 95px, 54px);
 }
 a[href="/jizzsplosion"]:after {
     @extend .faces;
-    background-position: -315px -380px;
-    height: 67px;
-    width: 50px;
+    @include sizer(-315px, -380px, 50px, 67px);
 }
 a[href="/ifeelsyabreh"]:after {
     @extend .faces;
-    background-position: -450px -30px;
-    height: 50px;
-    width: 47px;
+    @include sizer(-450px, -30px, 47px, 50px);
 }
 a[href="/trollmom"]:after {
     @extend .faces;
-    background-position: -332px -240px;
-    height: 80px;
-    width: 62px;
+    @include sizer(-332px, -240px, 62px, 80px);
 }
 a[href="/femyao"]:after {
     @extend .faces;
-    background-position: -420px -150px;
-    height: 66px;
-    width: 63px;
+    @include sizer(-420px, -150px, 63px, 66px);
 }
 a[href="/ilovethebeefytaco"]:after {
     @extend .faces;
-    background-position: -59px -270px;
-    height: 26px;
-    width: 32px;
+    @include sizer(-59px, -270px, 32px, 26px);
 }
 a[href="/gyey"]:after {
     @extend .faces;
-    background-position: 0 0;
-    height: 24px;
-    width: 26px;
+    @include sizer(0, 0, 26px, 24px);
 }
 a[href="/gwat"]:after {
     @extend .faces;
-    background-position: -30px 0;
-    height: 25px;
-    width: 26px;
+    @include sizer(-30px, 0, 26px, 25px);
 }
 a[href="/gsmile"]:after {
     @extend .faces;
-    background-position: -60px 0;
-    height: 24px;
-    width: 26px;
+    @include sizer(-60px, 0, 26px, 24px);
 }
 a[href="/gtongue"]:after {
     @extend .faces;
-    background-position: -90px 0;
-    height: 25px;
-    width: 26px;
+    @include sizer(-90px, 0, 26px, 25px);
 }
 a[href="/gohno"]:after, a[href="/gwah"]:after {
     @extend .faces;
-    background-position: -120px 0;
-    height: 30px;
-    width: 30px;
+    @include sizer(-120px, 0, 30px, 30px);
 }
 a[href="/ghappy"]:after {
     @extend .faces;
-    background-position: -150px 0;
-    height: 30px;
-    width: 30px;
+    @include sizer(-150px, 0, 30px, 30px);
 }
 a[href="/gbeh"]:after {
     @extend .faces;
-    background-position: -180px 0;
-    height: 25px;
-    width: 25px;
+    @include sizer(-180px, 0, 25px, 25px);
 }
 a[href="/gohno"]:after {
     @extend .faces;
-    background-position: -210px 0;
-    height: 30px;
-    width: 30px;
+    @include sizer(-210px, 0, 30px, 30px);
 }
 a[href="/gfu"]:after {
     @extend .faces;
-    background-position: -240px 0;
-    height: 25px;
-    width: 24px;
+    @include sizer(-240px, 0, 24px, 25px);
 }
 a[href="/guhm"]:after {
     @extend .faces;
-    background-position: -270px 0;
-    height: 30px;
-    width: 25px;
+    @include sizer(-270px, 0, 25px, 30px);
 }
 a[href="/fu"]:after {
     @extend .faces;
-    background-position: 0 -29px;
-    height: 26px;
-    width: 26px;
+    @include sizer(0, -29px, 26px, 26px);
 }
 a[href="/beh"]:after {
     @extend .faces;
-    background-position: -29px -28px;
-    height: 27px;
-    width: 27px;
+    @include sizer(-29px, -28px, 27px, 27px);
 }
 a[href="/gah"]:after {
     @extend .faces;
-    background-position: -60px -30px;
-    height: 26px;
-    width: 24px;
+    @include sizer(-60px, -30px, 24px, 26px);
 }
 a[href="/perfect"]:after {
     @extend .faces;
-    background-position: -90px -30px;
-    height: 23px;
-    width: 26px;
+    @include sizer(-90px, -30px, 26px, 23px);
 }
 a[href="/happy"]:after {
     @extend .faces;
-    background-position: -120px -30px;
-    height: 26px;
-    width: 26px;
+    @include sizer(-120px, -30px, 26px, 26px);
 }
 a[href="/uhm"]:after {
     @extend .faces;
-    background-position: -150px -30px;
-    height: 26px;
-    width: 24px;
+    @include sizer(-150px, -30px, 24px, 26px);
 }
 a[href="/wat"]:after {
     @extend .faces;
-    background-position: -180px -30px;
-    height: 27px;
-    width: 25px;
+    @include sizer(-180px, -30px, 25px, 27px);
 }
 a[href="/yey"]:after {
     @extend .faces;
-    background-position: -210px -30px;
-    height: 26px;
-    width: 24px;
+    @include sizer(-210px, -30px, 24px, 26px);
 }
 a[href="/fuckyeah"]:after {
     @extend .faces;
-    background-position: -240px -30px;
-    height: 23px;
-    width: 27px;
+    @include sizer(-240px, -30px, 27px, 23px);
 }
 a[href="/ewbte"]:after {
     @extend .faces;
-    background-position: -270px -30px;
-    height: 26px;
-    width: 24px;
+    @include sizer(-270px, -30px, 24px, 26px);
 }
 a[href="/son"]:after {
     @extend .faces;
-    background-position: 0 -60px;
-    height: 24px;
-    width: 23px;
+    @include sizer(0, -60px, 23px, 24px);
 }
 a[href="/high"]:after {
     @extend .faces;
-    background-position: -30px -60px;
-    height: 25px;
-    width: 26px;
+    @include sizer(-30px, -60px, 26px, 25px);
 }
 a[href="/poker"]:after {
     @extend .faces;
-    background-position: -60px -60px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-60px, -60px, 30px, 30px);
 }
 a[href="/rightmilk"]:after {
     @extend .faces;
-    background-position: -90px -60px;
-    height: 26px;
-    width: 23px;
+    @include sizer(-90px, -60px, 23px, 26px);
 }
 a[href="/megusta"]:after {
     @extend .faces;
-    background-position: -120px -60px;
-    height: 25px;
-    width: 25px;
+    @include sizer(-120px, -60px, 25px, 25px);
 }
 a[href="/troll"]:after {
     @extend .faces;
-    background-position: -150px -60px;
-    height: 27px;
-    width: 26px;
+    @include sizer(-150px, -60px, 26px, 27px);
 }
 a[href="/rtroll"]:after {
     @extend .faces;
-    background-position: -180px -60px;
-    height: 26px;
-    width: 25px;
+    @include sizer(-180px, -60px, 25px, 26px);
 }
 a[href="/leftmilk"]:after {
     @extend .faces;
-    background-position: -210px -60px;
-    height: 26px;
-    width: 22px;
+    @include sizer(-210px, -60px, 22px, 26px);
 }
 a[href="/futext"]:after {
     @extend .faces;
-    background-position: -240px -60px;
-    height: 30px;
-    width: 11px;
+    @include sizer(-240px, -60px, 11px, 30px);
 }
 a[href="/pft"]:after {
     @extend .faces;
-    background-position: -270px -60px;
-    height: 25px;
-    width: 24px;
+    @include sizer(-270px, -60px, 24px, 25px);
 }
 a[href="/sadtroll"]:after {
     @extend .faces;
-    background-position: 0 -90px;
-    height: 25px;
-    width: 25px;
+    @include sizer(0, -90px, 25px, 25px);
 }
 a[href="/wetodddog"]:after {
     @extend .faces;
-    background-position: -30px -90px;
-    height: 35px;
-    width: 27px;
+    @include sizer(-30px, -90px, 27px, 35px);
 }
 a[href="/harpdarp"]:after {
     @extend .faces;
-    background-position: -60px -91px;
-    height: 38px;
-    width: 35px;
+    @include sizer(-60px, -91px, 35px, 38px);
 }
 a[href="/dude"]:after {
     @extend .faces;
-    background-position: -120px -90px;
-    height: 26px;
-    width: 23px;
+    @include sizer(-120px, -90px, 23px, 26px);
 }
 a[href="/eyes"]:after {
     @extend .faces;
-    background-position: -150px -90px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-150px, -90px, 30px, 30px);
 }
 a[href="/awman"]:after {
     @extend .faces;
-    background-position: -180px -90px;
-    height: 29px;
-    width: 36px;
+    @include sizer(-180px, -90px, 36px, 29px);
 }
 a[href="/bepsausage"]:after {
     @extend .faces;
-    background-position: -240px -90px;
-    height: 19px;
-    width: 57px;
+    @include sizer(-240px, -90px, 57px, 19px);
 }
 a[href="/lol"]:after {
     @extend .faces;
-    background-position: 0 -120px;
-    height: 26px;
-    width: 22px;
+    @include sizer(0, -120px, 22px, 26px);
 }
 a[href="/omg"]:after {
     @extend .faces;
-    background-position: -120px -120px;
-    height: 30px;
-    width: 35px;
+    @include sizer(-120px, -120px, 35px, 30px);
 }
 a[href="/pissed"]:after {
     @extend .faces;
-    background-position: -180px -120px;
-    height: 25px;
-    width: 20px;
+    @include sizer(-180px, -120px, 20px, 25px);
 }
 a[href="/hmm"]:after {
     @extend .faces;
-    background-position: -210px -120px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-210px, -120px, 30px, 30px);
 }
 a[href="/whoa"]:after {
     @extend .faces;
-    background-position: -240px -120px;
-    height: 24px;
-    width: 25px;
+    @include sizer(-240px, -120px, 25px, 24px);
 }
 a[href="/sad"]:after {
     @extend .faces;
-    background-position: -269px -119px;
-    height: 25px;
-    width: 25px;
+    @include sizer(-269px, -119px, 25px, 25px);
 }
 a[href="/thumbsup"]:after {
     @extend .faces;
-    background-position: 0 -150px;
-    height: 25px;
-    width: 30px;
+    @include sizer(0, -150px, 30px, 25px);
 }
 a[href="/blackhair"]:after {
     @extend .faces;
-    background-position: -30px -150px;
-    height: 30px;
-    width: 25px;
+    @include sizer(-30px, -150px, 25px, 30px);
 }
 a[href="/hehheh"]:after {
     @extend .faces;
-    background-position: -60px -150px;
-    height: 25px;
-    width: 25px;
+    @include sizer(-60px, -150px, 25px, 25px);
 }
 a[href="/straight"]:after {
     @extend .faces;
-    background-position: -90px -150px;
-    height: 30px;
-    width: 25px;
+    @include sizer(-90px, -150px, 25px, 30px);
 }
 a[href="/bepinthemorning"]:after {
     @extend .faces;
-    background-position: -120px -150px;
-    height: 30px;
-    width: 100px;
+    @include sizer(-120px, -150px, 100px, 30px);
 }
 a[href="/red"]:after {
     @extend .faces;
-    background-position: -240px -150px;
-    height: 30px;
-    width: 34px;
+    @include sizer(-240px, -150px, 34px, 30px);
 }
 a[href="/bepislaughingatyourmum"]:after {
     @extend .faces;
-    background-position: 0 -180px;
-    height: 90px;
-    width: 60px;
+    @include sizer(0, -180px, 60px, 90px);
 }
 a[href="/nomegusta"]:after {
     @extend .faces;
-    background-position: 0 -270px;
-    height: 30px;
-    width: 24px;
+    @include sizer(0, -270px, 24px, 30px);
 }
 a[href="/wtf"]:after {
     @extend .faces;
-    background-position: -90px -180px;
-    height: 90px;
-    width: 60px;
+    @include sizer(-90px, -180px, 60px, 90px);
 }
 a[href="/trolldad"]:after {
     @extend .faces;
-    background-position: -180px -180px;
-    height: 60px;
-    width: 43px;
+    @include sizer(-180px, -180px, 43px, 60px);
 }
 a[href="/wayevil"]:after {
     @extend .faces;
-    background-position: -240px -180px;
-    height: 40px;
-    width: 40px;
+    @include sizer(-240px, -180px, 40px, 40px);
 }
 a[href="/challengeaccepted"]:after {
     @extend .faces;
-    background-position: -300px -180px;
-    height: 40px;
-    width: 30px;
+    @include sizer(-300px, -180px, 30px, 40px);
 }
 a[href="/melvin"]:after {
     @extend .faces;
-    background-position: -300px -240px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-300px, -240px, 30px, 30px);
 }
 a[href="/welp"]:after {
     @extend .faces;
-    background-position: -300px -120px;
-    height: 33px;
-    width: 30px;
+    @include sizer(-300px, -120px, 30px, 33px);
 }
 a[href="/bepistrollingyoubetter"]:after {
     @extend .faces;
-    background-position: -300px -60px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-300px, -60px, 30px, 30px);
 }
 a[href="/djlovestaco"]:after {
     @extend .faces;
-    background-position: -60px -270px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-60px, -270px, 30px, 30px);
 }
 a[href="/why"]:after {
     @extend .faces;
-    background-position: -90px -270px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-90px, -270px, 30px, 30px);
 }
 a[href="/surprised"]:after, a[href="/suprised"]:after {
     @extend .faces;
-    background-position: -120px -270px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-120px, -270px, 30px, 30px);
 }
 a[href="/longneck"]:after {
     @extend .faces;
-    background-position: 0 -300px;
-    height: 54px;
-    width: 63px;
+    @include sizer(0, -300px, 63px, 54px);
 }
 a[href="/sweetjesus"]:after {
     @extend .faces;
-    background-position: -90px -300px;
-    height: 38px;
-    width: 40px;
+    @include sizer(-90px, -300px, 40px, 38px);
 }
 a[href="/notokay"]:after {
     @extend .faces;
-    background-position: 0 -360px;
-    height: 37px;
-    width: 31px;
+    @include sizer(0, -360px, 31px, 37px);
 }
 a[href="/yuno"]:after {
     @extend .faces;
-    background-position: -30px -360px;
-    height: 44px;
-    width: 42px;
+    @include sizer(-30px, -360px, 42px, 44px);
 }
 a[href="/awyeah"]:after, a[href="/awyea"]:after {
     @extend .faces;
-    background-position: -90px -360px;
-    height: 40px;
-    width: 65px;
+    @include sizer(-90px, -360px, 65px, 40px);
 }
 a[href="/ohisthatacarrot"]:after, a[href="/carrt"]:after {
     @extend .faces;
-    background-position: -160px -360px;
-    height: 30px;
-    width: 32px;
+    @include sizer(-160px, -360px, 32px, 30px);
 }
 a[href="/iamawaffle"]:after {
     @extend .faces;
-    background-position: -60px -540px;
-    height: 35px;
-    width: 33px;
+    @include sizer(-60px, -540px, 33px, 35px);
 }
 a[href="/jackieeeee"]:after {
     @extend .faces;
-    background-position: -210px -360px;
-    height: 60px;
-    width: 100px;
+    @include sizer(-210px, -360px, 100px, 60px);
 }
 a[href="/aintthatsomeshit"]:after {
     @extend .faces;
-    background-position: -210px -300px;
-    height: 41px;
-    width: 50px;
+    @include sizer(-210px, -300px, 50px, 41px);
 }
 a[href="/igotthis"]:after {
     @extend .faces;
-    background-position: -270px -300px;
-    height: 50px;
-    width: 50px;
+    @include sizer(-270px, -300px, 50px, 50px);
 }
 a[href="/teeth"]:after {
     @extend .faces;
-    background-position: -330px -60px;
-    height: 60px;
-    width: 60px;
+    @include sizer(-330px, -60px, 60px, 60px);
 }
 a[href="/foreveralonewithyourmum"]:after {
     @extend .faces;
-    background-position: -330px -120px;
-    height: 95px;
-    width: 90px;
+    @include sizer(-330px, -120px, 90px, 95px);
 }
 a[href="/megustaperfect"]:after {
     @extend .faces;
-    background-position: -330px 0;
-    height: 52px;
-    width: 60px;
+    @include sizer(-330px, 0, 60px, 52px);
 }
 a[href="/fapfap"]:after {
     @extend .faces;
-    background-position: -330px -330px;
-    height: 45px;
-    width: 45px;
+    @include sizer(-330px, -330px, 45px, 45px);
 }
 a[href="/schlick"]:after {
     @extend .faces;
-    background-position: -390px -330px;
-    height: 45px;
-    width: 40px;
+    @include sizer(-390px, -330px, 40px, 45px);
 }
 a[href="/gtfo"]:after {
     @extend .faces;
-    background-position: -30px -270px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-30px, -270px, 30px, 30px);
 }
 a[href="/stare"]:after {
     @extend .faces;
-    background-position: -240px -240px;
-    height: 36px;
-    width: 47px;
+    @include sizer(-240px, -240px, 47px, 36px);
 }
 a[href="/fumanchu"]:after {
     @extend .faces;
-    background-position: -180px -240px;
-    height: 41px;
-    width: 60px;
+    @include sizer(-180px, -240px, 60px, 41px);
 }
 a[href="/vuvu"]:after {
     @extend .faces;
-    background-position: -390px 0;
-    height: 30px;
-    width: 30px;
+    @include sizer(-390px, 0, 30px, 30px);
 }
 a[href="/pfttext"]:after {
     @extend .faces;
-    background-position: -120px -570px;
-    height: 30px;
-    width: 30px;
+    @include sizer(-120px, -570px, 30px, 30px);
 }
 a[href="/indeed"]:after {
     @extend .faces;
-    background-position: -450px 0;
-    height: 25px;
-    width: 15px;
+    @include sizer(-450px, 0, 15px, 25px);
 }
 a[href="/ifeelyoubrah"]:after {
     @extend .faces;
-    background-position: -450px -30px;
-    height: 50px;
-    width: 50px;
+    @include sizer(-450px, -30px, 50px, 50px);
 }
 a[href="/steve"]:after {
     @extend .faces;
-    background-position: -510px -30px;
-    height: 50px;
-    width: 40px;
+    @include sizer(-510px, -30px, 40px, 50px);
 }
 a[href="/serious"]:after {
     @extend .faces;
-    background-position: -540px -90px;
-    height: 50px;
-    width: 50px;
+    @include sizer(-540px, -90px, 50px, 50px);
 }
 a[href="/gserious"]:after {
     @extend .faces;
-    background-position: -510px -150px;
-    height: 50px;
-    width: 50px;
+    @include sizer(-510px, -150px, 50px, 50px);
 }
 a[href="/gaytroll"]:after {
     @extend .faces;
-    background-position: -540px -210px;
-    height: 50px;
-    width: 39px;
+    @include sizer(-540px, -210px, 39px, 50px);
 }
 a[href="/deviltroll"]:after {
     @extend .faces;
-    background-position: -420px -90px;
-    height: 50px;
-    width: 37px;
+    @include sizer(-420px, -90px, 37px, 50px);
 }
 a[href="/freddie"]:after {
     @extend .faces;
-    background-position: -480px -240px;
-    height: 100px;
-    width: 48px;
+    @include sizer(-480px, -240px, 48px, 100px);
 }
 a[href="/thestonedmod"]:after {
     @extend .faces;
-    background-position: -540px -270px;
-    height: 53px;
-    width: 50px;
+    @include sizer(-540px, -270px, 50px, 53px);
 }
 a[href="/notbad"]:after {
     @extend .faces;
-    background-position: -420px -240px;
-    height: 67px;
-    width: 42px;
+    @include sizer(-420px, -240px, 42px, 67px);
 }
 a[href="/trollmum"]:after {
     @extend .faces;
-    background-position: -330px -240px;
-    height: 80px;
-    width: 65px;
+    @include sizer(-330px, -240px, 65px, 80px);
 }
 a[href="/gwtf"]:after {
     @extend .faces;
-    background-position: -420px -150px;
-    height: 65px;
-    width: 65px;
+    @include sizer(-420px, -150px, 65px, 65px);
 }
 a[href="/okay"]:after {
     @extend .faces;
-    background-position: -390px -30px;
-    height: 59px;
-    width: 60px;
+    @include sizer(-390px, -30px, 60px, 59px);
 }
 a[href="/splashy"]:after {
     @extend .faces;
-    background-position: -240px -420px;
-    height: 45px;
-    width: 57px;
+    @include sizer(-240px, -420px, 57px, 45px);
 }
 a[href="/toomuchweed"]:after {
     @extend .faces;
-    background-position: -180px -420px;
-    height: 54px;
-    width: 45px;
+    @include sizer(-180px, -420px, 45px, 54px);
 }
 a[href="/chrisbrpwnd"]:after, a[href="/21424"]:after {
     @extend .faces;
-    background-position: -150px -480px;
-    height: 116px;
-    width: 91px;
+    @include sizer(-150px, -480px, 91px, 116px);
 }
 a[href="/biebs"]:after {
     @extend .faces;
-    background-position: -120px -420px;
-    height: 68px;
-    width: 49px;
+    @include sizer(-120px, -420px, 49px, 68px);
 }
 a[href="/cereal"]:after {
     @extend .faces;
-    background-position: -47px -414px;
-    height: 33px;
-    width: 40px;
+    @include sizer(-47px, -414px, 40px, 33px);
 }
 a[href="/foreveralonelaugh"]:after {
     @extend .faces;
-    background-position: 0 -450px;
-    height: 86px;
-    width: 75px;
+    @include sizer(0, -450px, 75px, 86px);
 }
 a[href="/ohcrap"]:after {
     @extend .faces;
-    background-position: 0 -420px;
-    height: 29px;
-    width: 30px;
+    @include sizer(0, -420px, 30px, 29px);
 }
 a[href="/jasonqualman"]:after {
     @extend .faces;
-    background-position: -80px -485px;
-    height: 50px;
-    width: 36px;
+    @include sizer(-80px, -485px, 36px, 50px);
 }
 a[href="/fyl"]:after {
     @extend .faces;
-    background-position: -90px -480px;
-    height: 50px;
-    width: 36px;
+    @include sizer(-90px, -480px, 36px, 50px);
 }
 a[href="/rmilk"]:after {
     @extend .faces;
-    background-position: -90px -60px;
-    height: 25px;
-    width: 21px;
+    @include sizer(-90px, -60px, 21px, 25px);
 }
 a[href="/ewbtetext"]:after {
     @extend .faces;
-    background-position: -120px -541px;
-    height: 10px;
-    width: 14px;
+    @include sizer(-120px, -541px, 14px, 10px);
 }
 a[href="/trap"]:after {
     @extend .faces;
-    background-position: -480px -90px;
-    height: 40px;
-    width: 41px;
+    @include sizer(-480px, -90px, 41px, 40px);
 }
