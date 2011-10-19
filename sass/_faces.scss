@@ -9,6 +9,17 @@
 //Chrome bug fix
 .usertext-body a { display: inline-block; }
 
+//Using this syntax (as opposed to 3 line syntax)
+//a[href="/example"]:after {
+//    @extend .faces;
+//    @include sizer(-240px, -30px, 25px, 25px);
+//                  (background x position, background y position, face width, face height)
+//                  (sass will compile this to
+//                      background-position: -240px -30px;
+//                      width: 25px;
+//                      height: 25px;
+//}
+
 @mixin sizer($posx: 0, $posy: 0, $sizex: 25, $sizey: 25) {
     background-position: $posx $posy;
     width: $sizex;
