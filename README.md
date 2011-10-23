@@ -28,7 +28,9 @@ Finally, the [Compass](http://compass-style.org/reference/compass/) manual is pr
 
 
 ##Installing compass
-[This guide](http://compass-style.org/install/) does a far better job explaining how to install stuff. But don't worry if you can't make it work, we can make provisions for you.
+To install all the required dependencies, simply run `bundle install` in the root directory. This will install all the required gems.
+
+If you don't have bundler installed, run `gem install bundler` to get it.
 
 
 [1]: http://reddit.com/r/fffffffuuuuuuuuuuuu "F7u12 Subreddit on reddit.com" 
